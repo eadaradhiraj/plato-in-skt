@@ -1,0 +1,72 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f4f1ea;
+    color: #222;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Paragraph Block styling */
+.para-block {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.greek-col, .english-col {
+    flex: 1;
+    line-height: 1.6;
+}
+
+.greek-col {
+    text-align: right;
+    font-size: 1.2em;
+    border-right: 1px solid #eee;
+    padding-right: 20px;
+}
+
+.english-col {
+    text-align: left;
+    font-size: 1.05em;
+    color: #444;
+}
+
+/* Sentence Highlighting */
+.sentence {
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+.sentence:hover {
+    background-color: #fdf6e3;
+}
+
+.sentence.highlight {
+    background-color: #fff3b0;
+    color: #000;
+}
+
+.stephanus {
+    font-family: monospace;
+    color: #b22222;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+}
