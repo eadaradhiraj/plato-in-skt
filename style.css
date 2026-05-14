@@ -27,12 +27,12 @@ header {
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
-.greek-col, .english-col {
+.skt-col, .english-col {
     flex: 1;
     line-height: 1.6;
 }
 
-.greek-col {
+.skt-col {
     text-align: right;
     font-size: 1.2em;
     border-right: 1px solid #eee;
